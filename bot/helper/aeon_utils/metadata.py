@@ -68,9 +68,9 @@ async def change_metadata(file, dirpath, key):
             if not first_video:
                 cmd.extend(['-map', f'0:{stream_index}'])
                 first_video = True
-            cmd.extend([f'-metadata:s:v:{stream_index}', f'title={key}'])
+            cmd.extend([f'-metadata:s:v:{stream_index}', f'title=@VK_OFCL IN TELEGRAM'])
         elif stream_type == 'audio':
-            cmd.extend(['-map', f'0:{stream_index}', f'-metadata:s:a:{audio_index}', f'title={key}'])
+            cmd.extend(['-map', f'0:{stream_index}', f'-metadata:s:a:{audio_index}', f'title=@VK_OFCL IN TELEGRAM', '-metadata', f'CREDITS=VK RIPS', '-metadata', f'Powered_By=@VK_OFCL'])
             audio_index += 1
         elif stream_type == 'subtitle':
             codec_name = stream.get('codec_name', 'unknown')
