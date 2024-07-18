@@ -1,0 +1,8 @@
+
+BOT_TOKEN = "6684128676:AAGhS-H4kv2sRYU8HwD32QrppHXYeaxXGxU"
+OWNER_ID = "6890795853"
+TELEGRAM_API = "23270278"
+TELEGRAM_HASH = "87a837607d9761cdf98bbc3e61eef098"
+DATABASE_URL = "mongodb+srv://parcel:malliga@cluster0.xoax6ur.mongodb.net/?retryWrites=true&w=majority"
+LEECH_DUMP_ID = "-1002034735798"
+LEECH_LOG_ID = "-1002034735798"
